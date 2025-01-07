@@ -3,7 +3,7 @@ export default function Navbar() {
   return (
     <div className="navbar w-auto mx-auto">
       <div className="logo w-32">
-        <img src="./pdf.png" alt="" className="md:shrink-0"></img>
+        <img src="./" alt="" className="md:shrink-0"></img>
       </div>
       <div className="menu-bar md:flex-row">
         <ul className="">
