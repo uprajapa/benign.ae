@@ -1,4 +1,4 @@
-import Navbar from "@/Navigation/navbar";
+import { Navbar } from "../components/Navbar";
 export default function Login() {
   return (
       <>
