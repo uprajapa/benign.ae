@@ -1,16 +1,21 @@
 'use client';
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import burger from '../../../public/images/burger-menu.png';
+// import burger from '../../../public/images/burger-menu.png';
+import logo from '../../../public/images/logo.png';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-gray-500 text-white text- p-5 sm:p-3 md:flex md:justify-between md:items-center">
+    <nav className="sm:p-4 p-2 md:flex md:justify-between md:items-center">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="" className="text-2xl font-bold">
-          Benign
-        </a>
+        <Image 
+          src={logo}
+          alt="Logo"
+          width={150}
+          height={150}
+        />
         <div className="hidden md:flex">
         <Link href="../" className="mx-2 hover:text-gray-700">
           Home 
