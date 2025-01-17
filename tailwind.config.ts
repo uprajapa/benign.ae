@@ -9,6 +9,9 @@ export default {
       backgroundColor: {
         lightgreen: "#c7ede6",
       },
+      spacing: {
+        "8xl": "96rem",
+      },
     },
   },
   plugins: [],
