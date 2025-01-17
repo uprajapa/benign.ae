@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-// import burger from '../../../public/images/burger-menu.png';
 import logo from '../../../public/images/logo.png';
 
 export const Navbar = () => {
