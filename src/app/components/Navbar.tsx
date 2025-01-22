@@ -40,9 +40,9 @@ export const Navbar = () => {
     //   </div>
     // </nav>
     <header className="bg-teal-500 sticky top-0 z-10">
-      <section className="bg-blue-500 max-w-8xl mx-auto px-4 flex justify-between items-center">
+      <section className="bg-blue-500 max-w-8xl mx-auto px-6 flex justify-between items-center">
         <div>XYZ</div>
-        <a href="/" className="w-40">
+        <a href="/" className="w-40"> 
           <Image 
             src={logo}
             alt="Logo"
@@ -51,12 +51,20 @@ export const Navbar = () => {
         </a>        
         <Link href="/login" className="">Account</Link>
       </section>
-      <section className="max-w-8xl mx-auto p-4 flex justify-between items-center">
-        <Link href="/sustain">Sustainability</Link>    
-        <Link href="/store">All Products</Link>    
-        <Link href="/Article">Article</Link>    
-        <Link href="/contactUs">Contact Us</Link>    
-        <Link href="/login" className="">About Us</Link>
+      <section className="bg-pink-50 max-w-8xl mx-auto py-4 px-6">
+        {/* <div> */}
+          <button id="mobile-open-button"
+            className="text-3xl sm:hidden focus:outline-none end-0">
+            &#9776;
+          </button>
+          <nav className="hidden sm:flex justify-between items-center space-x-8 text-xl" aria-label="main">
+            <Link href="/sustain">Sustainability</Link>
+            <Link href="/store">All Products</Link>
+            <Link href="/Article">Article</Link>
+            <Link href="/contactUs">Contact Us</Link>
+            <Link href="/login" className="">About Us</Link>
+          </nav>
+        {/* </div> */}
       </section>
     </header>
   )
