@@ -1,4 +1,6 @@
 import { Navbar } from "./components/Navbar";
+import { Homepage } from "./components/Home";
+
 import '../style/main.css';
 
 export default function Home() {
@@ -6,17 +8,7 @@ export default function Home() {
     <>
       <div className="">
         <Navbar />
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-        <h2 className="text-3xl font-bold underline">| Shree Ganeshay Namah |</h2>
-
+        <Homepage />
       </div>
     </>
   );
