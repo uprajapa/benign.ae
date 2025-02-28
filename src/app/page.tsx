@@ -1,5 +1,15 @@
+import { Navbar } from "./components/Navbar";
+import Homepage from "./components/Home";
+
+import '../style/main.css';
+
 export default function Home() {
   return (
-      <h2>| Shree Ganeshay Namah |</h2>
+    <>
+      <div className="">
+        <Navbar />
+        <Homepage />
+      </div>
+    </>
   );
 }
